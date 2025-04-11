@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entreprise Électrique</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- En-tête -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo Entreprise Électrique">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#products">Produits</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section À propos -->
+    <section id="about">
+        <h1>À propos de nous</h1>
+        <p>Nous sommes une entreprise spécialisée dans la vente de produits électriques de haute qualité.</p>
+    </section>
+
+    <!-- Section Produits -->
+    <section id="products">
+        <h1>Nos Produits</h1>
+        <div class="product-list">
+            <div class="product">
+                <h2>Produit 1</h2>
+                <p>Description du produit 1.</p>
+            </div>
+            <div class="product">
+                <h2>Produit 2</h2>
+                <p>Description du produit 2.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h1>Contactez-nous</h1>
+        <form action="submit_form.php" method="post">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <textarea id="message" name="message" placeholder="Votre message..." required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2025 Entreprise Électrique - Tous droits réservés</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
